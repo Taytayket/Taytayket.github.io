@@ -1,0 +1,1 @@
+var e=[`en`,`zh`,`fr`];e.filter(e=>e!==`en`);var t=t=>typeof t==`string`&&e.includes(t);function n(e,t=`/`){return e===`en`?t:t===`/`?`/${e}`:t.startsWith(`/#`)||t.startsWith(`/?`)?`/${e}${t.slice(1)}`:`/${e}${t}`}function r(e){let n=e.split(`/`)[1];return t(n)?n:`en`}export{r as n,n as t};

@@ -1,1 +1,0 @@
-import{t as e}from"./videos.B9bRUK96.js";e(),document.querySelectorAll(`[data-faq]`).forEach(e=>{e.addEventListener(`click`,()=>{let t=e.getAttribute(`aria-expanded`)===`true`;e.setAttribute(`aria-expanded`,String(!t));let n=document.getElementById(e.getAttribute(`aria-controls`));n&&(n.hidden=t)})});
